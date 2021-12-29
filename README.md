@@ -42,3 +42,27 @@ services:
 ```
 
 artık sadece bizim bu dosyayı çalıştır dememiz lazım.
+
+```console
+ docker-compose -f springExamples\spring-mongo-rest-api\src\main\resources\docker-compose.yml up -d
+```
+
+[ElasticSearch](https://hub.docker.com/_/elasticsearch) docker compose
+
+```dockerfile
+version: '3.1'
+services:
+  elasticsearch:
+    image: elasticsearch:7.16.2
+    ports:
+      - '9200:9200'
+      - '9300:9300'
+    environment:
+      - discovery.type=single-node
+
+```
+
+ ```powershell
+ docker-compose -f docker-compose.yml up -d 
+ ```
+
