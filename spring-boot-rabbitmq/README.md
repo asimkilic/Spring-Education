@@ -1,6 +1,6 @@
 ## Rabbit MQ
 
-![image-20220102164657244](img\RabbitMQ.png)
+<img src="https://github.com/asimkilic/Spring-Education/blob/master/spring-boot-rabbitmq/img/RabbitMQ.png" alt="RabbitMQ" style="max-width: 100%;">
 
 Kuyruk tanımını kısaca  mesajlarımız bir yerlere yazılıyor ve o yazdığımız mesajlar sırayla tüketilmesini sağlıyor ve o sıralama konusunda değişiklik yapabiliyoruz. RabbitMQ 'nun desteklediği birden fazla iletişim türü var.
 
